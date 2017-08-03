@@ -1,0 +1,21 @@
+<HTML>
+<HEAD>
+<TITLE></TITLE>
+</HEAD>
+<BODY>
+<div align="center">
+<h1>AnonMail</h1>
+</div>
+<form method="post" action="anonmail.php">
+<pre>
+To:      <input type="text" name="para">
+Subject: <input type="text" name="titulo">
+Body:
+<textarea rows=10 cols=50 name="message">
+</textarea>
+<input type="submit" value="Enviar">
+<input type="reset" value="Resetar">
+</pre>
+</form>
+</BODY>
+</HTML>
